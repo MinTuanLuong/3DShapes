@@ -1,0 +1,35 @@
+/* static/css/styles.css */
+
+
+
+/* CSS cho nút bắt đầu */
+.start-button {
+    background-color: #87CEEB;  /* Màu xanh biển nhạt */
+    color: white;               /* Màu chữ trắng */
+    border: none;
+    padding: 15px 30px;
+    font-size: 24px;
+    border-radius: 20px;
+    cursor: pointer;
+    text-align: center;
+}
+
+/* Căn giữa div chứa nút */
+.center-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+/* static/css/styles.css */
+
+/* Gradient text style */
+.gradient-text {
+    font-size: 48px; /* Kích thước chữ */
+    font-weight: bold;
+    background: linear-gradient(90deg, #00C9FF, #92FE9D); /* Màu gradient */
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    text-align: center;
+}
