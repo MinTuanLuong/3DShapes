@@ -1,6 +1,6 @@
 import streamlit as st
 import base64
-from project.pages import page1, page2, page3, page0  # Import các trang phụ
+from project.pages import page1, page2, page3  # Import các trang phụ
 
 # Hàm nạp file nhị phân và chuyển đổi sang base64 cho hình nền
 def get_base64_of_bin_file(bin_file):
@@ -54,12 +54,6 @@ elif page_selection == "Trang 2":
 elif page_selection == "Trang 3":
     page3.show()  # Hiển thị nội dung từ file `page3.py`
 
-button_html = """
-    <div class="center-container">
-        <button class="start-button" onclick="window.open('pages/page0', '_self')">Bắt đầu</button>
-    </div>
-"""
-st.markdown(button_html, unsafe_allow_html=True)
 
 
 
