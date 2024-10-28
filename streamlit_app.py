@@ -37,21 +37,21 @@ css = load_file("project/static/css/style.css")
 st.markdown(f"<style>{css}</style>", unsafe_allow_html=True)
 
 # Thiết lập sidebar để điều hướng giữa các trang
-st.sidebar.title("Điều Hướng")
-page_selection = st.sidebar.radio("Chọn trang:", ["Trang Chính", "Trang 1", "Trang 2", "Trang 3"])
+st.sidebar.title("Hình học không gian")
+page_selection = st.sidebar.radio("", ["Trang Chủ", "Hình trụ", "Hình nón", "Hình cầu"])
 
 # Hiển thị tiêu đề và slogan trên trang chính
 st.markdown('<h1 class="gradient-text-xanh">HÌNH HỌC 3D</h1>', unsafe_allow_html=True)
 st.markdown('<h3 class="gradient-text-do">Hình khối sống động - Kiến thức vững chắc</h3>', unsafe_allow_html=True)
 
 # Hiển thị nội dung dựa trên lựa chọn trong sidebar
-if page_selection == "Trang Chính":
+if page_selection == "Trang Chủ":
     st.write("Hãy cùng nhau khám phá thế giới hình học 3D đầy thú vị! Từ những hình khối đơn giản như khối lập phương, hình cầu, đến những cấu trúc phức tạp hơn, mỗi hình đều ẩn chứa những quy luật và tính chất độc đáo. Trang web này sẽ giúp bạn không chỉ hiểu rõ về các hình khối mà còn thấy chúng 'sống động' qua các hình ảnh minh họa trực quan và các bài học tương tác. Bắt đầu ngay để khám phá vẻ đẹp toán học ẩn giấu trong từng hình khối nhé!")
-elif page_selection == "Trang 1":
+elif page_selection == "Hình trụ":
     page1.show()  # Hiển thị nội dung từ file `page1.py`
-elif page_selection == "Trang 2":
+elif page_selection == "Hình nón":
     page2.show()  # Hiển thị nội dung từ file `page2.py`
-elif page_selection == "Trang 3":
+elif page_selection == "Hình cầu":
     page3.show()  # Hiển thị nội dung từ file `page3.py`
 
 
