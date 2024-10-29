@@ -2,7 +2,7 @@
 
 [theme]
 primaryColor="#1E90FF"  # Màu xanh nhạt cho phông chữ
-backgroundColor="#E0F7FA"  # Xanh nhạt
-secondaryBackgroundColor="#FFFACD"  # Vàng nhạt cho nền phụ (sidebar)
+backgroundColor="#E6E6FA"  # Lavender
+secondaryBackgroundColor="#CCFFCC"  # lục nhạt cho nền phụ (sidebar)
 textColor="#333333"  # Màu chữ xám đậm
 font="sans serif"
