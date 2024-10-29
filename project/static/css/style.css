@@ -37,19 +37,20 @@ body {
 
 /* Gradient text style */
 .gradient-text-xanh {
-    font-size: 48px; /* Kích thước chữ */
+    font-size: 70px; /* Kích thước chữ */
     font-weight: bold;
-    background: linear-gradient(90deg, #ee0f0f, #bd36ea); /* Màu gradient */
+    background: linear-gradient(90deg, #f67905, #f30d09); /* Màu gradient */
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
     text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0);
 }
 
 .gradient-text-do {
     font-size: 48px; /* Kích thước chữ */
     font-weight: bold;
-    background: linear-gradient(90deg, #34841a, #00FFAB); /* Gradient từ đỏ nhạt sang tím nhạt */
+    background: linear-gradient(90deg, #042379, #14805c); /* Gradient từ đỏ nhạt sang tím nhạt */
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;

@@ -1,7 +1,7 @@
 # .streamlit/config.toml
 
 [theme]
-primaryColor="#1E90FF"  # Màu xanh nhạt cho phông chữ
+primaryColor="#000000"  # Màu xanh nhạt cho phông chữ
 backgroundColor="#E6E6FA"  # Lavender
 secondaryBackgroundColor="#CCFFCC"  # lục nhạt cho nền phụ (sidebar)
 textColor="#000000"  # Màu chữ xám đậm
