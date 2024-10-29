@@ -9,7 +9,7 @@ from project.pages import page1, page2, page3  # Import các trang phụ
 background_image = """
 <style>
 [data-testid="stAppViewContainer"] {
-    background-image: url("https://static.vecteezy.com/system/resources/previews/011/404/351/original/flat-dahed-dotted-black-grid-geometric-memphis-background-free-vector.jpg");
+    background-image: url("https://cdn.shopify.com/s/files/1/0575/0987/1774/files/1_6df15c2e-7475-4b2e-839e-3826bc5c02f6.png?v=1653967370");
     background-size: cover;
     background-position: top left;
     background-repeat: no-repeat; 
@@ -23,6 +23,12 @@ background: rgba(0,0,0,0);
 right: 2rem;
 }
 
+[data-testid="stSidebar"] {
+    background-image: url("https://wallpapercave.com/wp/wp5005050.jpg");
+    background-size: cover;
+    background-position: top left;
+    background-repeat: no-repeat; 
+}
 </style>
 """
 
