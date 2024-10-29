@@ -5,19 +5,28 @@ from project.pages import page1, page2, page3  # Import các trang phụ
 # st.markdown(original_title, unsafe_allow_html=True)
 
 
-# # Set the background image
-# background_image = """
-# <style>
-# [data-testid="stAppViewContainer"] > .main {
-#     background-image: url("https://images.unsplash.com/photo-1542281286-9e0a16bb7366");
-#     background-size: 100vw 100vh;  # This sets the size to cover 100% of the viewport width and height
-#     background-position: center;  
-#     background-repeat: no-repeat;
-# }
-# </style>
-# """
+# Set the background image
+background_image = """
+<style>
+[data-testid="stAppViewContainer"] {
+    background-image: url("https://static.vecteezy.com/system/resources/previews/011/404/351/original/flat-dahed-dotted-black-grid-geometric-memphis-background-free-vector.jpg");
+    background-size: cover;
+    background-position: top left;
+    background-repeat: no-repeat; 
+}
 
-# st.markdown(background_image, unsafe_allow_html=True)
+[data-testid="stHeader"] {
+background: rgba(0,0,0,0);
+}
+
+[data-testid="stToolbar"] {
+right: 2rem;
+}
+
+</style>
+"""
+
+st.markdown(background_image, unsafe_allow_html=True)
 
 # st.text_input("", placeholder="Streamlit CSS ")
 
