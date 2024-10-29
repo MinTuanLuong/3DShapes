@@ -3,6 +3,6 @@
 [theme]
 primaryColor="#1E90FF"  # Màu xanh nhạt cho phông chữ
 backgroundColor="#E0F7FA"  # Xanh nhạt
-secondaryBackgroundColor="#FFD700"  # Vàng nhạt cho nền phụ (sidebar)
+secondaryBackgroundColor="#FFFACD"  # Vàng nhạt cho nền phụ (sidebar)
 textColor="#333333"  # Màu chữ xám đậm
 font="sans serif"
