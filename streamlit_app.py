@@ -9,7 +9,7 @@ from project.pages import page1, page2, page3  # Import các trang phụ
 background_image = """
 <style>
 [data-testid="stAppViewContainer"] {
-    background-image: url("https://cdn.shopify.com/s/files/1/0575/0987/1774/files/1_6df15c2e-7475-4b2e-839e-3826bc5c02f6.png?v=1653967370");
+    background-image: url("https://www.designbolts.com/wp-content/uploads/2021/01/hd-blue-sky-with-clouds-image-1.jpg");
     background-size: cover;
     background-position: top left;
     background-repeat: no-repeat; 

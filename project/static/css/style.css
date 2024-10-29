@@ -39,7 +39,7 @@ body {
 .gradient-text-xanh {
     font-size: 48px; /* Kích thước chữ */
     font-weight: bold;
-    background: linear-gradient(90deg, #ffae62, #B22222); /* Màu gradient */
+    background: linear-gradient(90deg, #ee0f0f, #bd36ea); /* Màu gradient */
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
@@ -49,7 +49,7 @@ body {
 .gradient-text-do {
     font-size: 48px; /* Kích thước chữ */
     font-weight: bold;
-    background: linear-gradient(90deg, #007FFF, #00FFAB); /* Gradient từ đỏ nhạt sang tím nhạt */
+    background: linear-gradient(90deg, #34841a, #00FFAB); /* Gradient từ đỏ nhạt sang tím nhạt */
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
