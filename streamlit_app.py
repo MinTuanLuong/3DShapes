@@ -1,31 +1,41 @@
 import streamlit as st
-import base64
 from project.pages import page1, page2, page3  # Import các trang phụ
 
-# Hàm nạp file nhị phân và chuyển đổi sang base64 cho hình nền
-def get_base64_of_bin_file(bin_file):
-    with open(bin_file, 'rb') as f:
-        data = f.read()
-    return base64.b64encode(data).decode()
+# original_title = '<h1 style="font-family: serif; color:white; font-size: 20px;">Streamlit CSS Styling✨ </h1>'
+# st.markdown(original_title, unsafe_allow_html=True)
 
-# Hàm thiết lập hình nền từ file PNG
-def set_png_as_page_bg(png_file):
-    bin_str = get_base64_of_bin_file(png_file)
-    page_bg_img = f'''
-    <style>
-    body {{
-    background-image: url("data:image/png;base64,{bin_str}");
-    background-size: cover;
+
+# Set the background image
+background_image = """
+<style>
+[data-testid="stAppViewContainer"] > .main {
+    background-image: url("https://images.unsplash.com/photo-1542281286-9e0a16bb7366");
+    background-size: 100vw 100vh;  # This sets the size to cover 100% of the viewport width and height
+    background-position: center;  
     background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-    }}
-    </style>
-    '''
-    st.markdown(page_bg_img, unsafe_allow_html=True)
+}
+</style>
+"""
 
-# Gọi hàm thiết lập hình nền
-set_png_as_page_bg('project/static/image/background.png')
+st.markdown(background_image, unsafe_allow_html=True)
+
+# st.text_input("", placeholder="Streamlit CSS ")
+
+input_style = """
+<style>
+input[type="text"] {
+    background-color: transparent;
+    color: #a19eae;  // This changes the text color inside the input box
+}
+div[data-baseweb="base-input"] {
+    background-color: transparent !important;
+}
+[data-testid="stAppViewContainer"] {
+    background-color: transparent !important;
+}
+</style>
+"""
+st.markdown(input_style, unsafe_allow_html=True)
 
 # Hàm để tải nội dung từ file văn bản
 def load_file(file_path):
@@ -48,7 +58,7 @@ st.markdown('<h3 class="gradient-text-do">Hình khối sống động - Kiến t
 if page_selection == "Trang Chủ":
     st.write(
     "Hãy cùng nhau khám phá thế giới hình học 3D đầy thú vị! Từ những hình khối đơn giản như khối lập phương, hình cầu, đến những cấu trúc phức tạp hơn, mỗi hình đều ẩn chứa những quy luật và tính chất độc đáo.\n"
-    "Trang web này sẽ giúp bạn không chỉ hiểu rõ về các hình khối mà còn thấy chúng 'sống động' qua các hình ảnh minh họa trực quan và các bài học tương tác.\n"
+    "Trang web này sẽ giúp bạn không chỉ hiểu rõ về các hình khối mà còn thấy chúng sống động qua các hình ảnh minh họa trực quan và các bài học tương tác.\n"
     "Bắt đầu ngay để khám phá vẻ đẹp toán học ẩn giấu trong từng hình khối nhé!\n\n"
     "👉 **Bấm vào thanh sidebar để chọn hình bạn muốn khám phá!**"
     )    
