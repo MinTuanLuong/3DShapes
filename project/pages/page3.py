@@ -23,7 +23,7 @@ def show():
     st.header("Công thức")
     st.write("Hãy cùng tìm hiểu công thức tính diện tích xung quanh và thể tích của hình cầu qua hoạt động dưới đây.")
 
-    geogebra_url = "https://www.geogebra.org/classic/zpkkh2yh"
+    geogebra_url = "https://www.geogebra.org/m/nrupz4yy"
     if st.button("Tìm hiểu các công thức của Hình cầu trên Geogebra"):
         st.write("Bấm vào nút bên dưới để mở trong tab mới.")
         st.markdown(f'<a href="{geogebra_url}" target="_blank"><button>Geogebra - Hình cầu</button></a>', unsafe_allow_html=True)
