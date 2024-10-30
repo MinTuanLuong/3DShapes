@@ -15,7 +15,7 @@ background_image = """
 <style>
 [data-testid="stAppViewContainer"] {
     background-image: url("https://bpic.588ku.com/back_our/20210527/bg/741b4312315f0.png");
-    background-size: 150%;
+    background-size: 160%;
     background-position: bottom center;
     background-repeat: no-repeat; 
 }
