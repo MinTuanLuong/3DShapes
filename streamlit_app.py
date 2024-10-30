@@ -4,7 +4,6 @@ from project.pages import page1, page2, page3  # Import các trang phụ
 # original_title = '<h1 style="font-family: serif; color:white; font-size: 20px;">Streamlit CSS Styling✨ </h1>'
 # st.markdown(original_title, unsafe_allow_html=True)
 
-import streamlit as st
 
 st.image("https://online.hcmue.edu.vn/static/media/LogoHCMUE2.a462e8c2.png", width=700)
 st.markdown("<h1 style='text-align: center; color: Navy;'>KHOA TOÁN - TIN HỌC</h1>", unsafe_allow_html=True)
@@ -16,7 +15,7 @@ background_image = """
 <style>
 [data-testid="stAppViewContainer"] {
     background-image: url("https://bpic.588ku.com/back_our/20210527/bg/741b4312315f0.png");
-    background-size: 120%;
+    background-size: 150%;
     background-position: bottom center;
     background-repeat: no-repeat; 
 }
@@ -95,7 +94,7 @@ if page_selection == "Trang Chủ":
     "Hãy cùng nhau khám phá thế giới hình học 3D đầy thú vị! Từ những hình khối đơn giản như khối lập phương, hình cầu, đến những cấu trúc phức tạp hơn, mỗi hình đều ẩn chứa những quy luật và tính chất độc đáo.\n"
     "Trang web này sẽ giúp bạn không chỉ hiểu rõ về các hình khối mà còn thấy chúng sống động qua các hình ảnh minh họa trực quan và các bài học tương tác.\n"
     "Bắt đầu ngay để khám phá vẻ đẹp toán học ẩn giấu trong từng hình khối nhé!\n\n"
-    "👉 **Bấm vào thanh sidebar để chọn hình bạn muốn khám phá!**"
+    "👉 :rainbow[**Bấm vào thanh sidebar để chọn hình bạn muốn khám phá!**]"
     )    
 elif page_selection == "Hình trụ":
     page1.show()  # Hiển thị nội dung từ file `page1.py`
