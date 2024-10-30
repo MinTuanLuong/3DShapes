@@ -81,7 +81,7 @@ st.sidebar.title("Hình học không gian")
 page_selection = st.sidebar.radio("", ["Trang Chủ", "Hình trụ", "Hình nón", "Hình cầu"])
 
 # Hiển thị tiêu đề và slogan trên trang chính
-st.markdown('<h1 class="gradient-text-xanh">HÌNH HỌC 3D</h1>', unsafe_allow_html=True)
+st.markdown('<h1 class="gradient-text-xanh">HÌNH HỌC TRỰC QUAN</h1>', unsafe_allow_html=True)
 st.markdown('<h3 class="gradient-text-do">Hình khối sống động - Kiến thức vững chắc</h3>', unsafe_allow_html=True)
 
 # Hiển thị nội dung dựa trên lựa chọn trong sidebar
