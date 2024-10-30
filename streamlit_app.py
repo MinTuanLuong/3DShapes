@@ -10,9 +10,9 @@ st.image("https://hcmue.edu.vn/images/Faculty_Logos/Toan1.png", width=100)
 background_image = """
 <style>
 [data-testid="stAppViewContainer"] {
-    background-image: url("https://www.designbolts.com/wp-content/uploads/2021/01/hd-blue-sky-with-clouds-image-1.jpg");
-    background-size: cover;
-    background-position: top left;
+    background-image: url("https://bpic.588ku.com/back_our/20210527/bg/741b4312315f0.png");
+    background-size: 120%;
+    background-position: bottom center;
     background-repeat: no-repeat; 
 }
 
@@ -81,7 +81,7 @@ st.sidebar.title("Hình học không gian")
 page_selection = st.sidebar.radio("", ["Trang Chủ", "Hình trụ", "Hình nón", "Hình cầu"])
 
 # Hiển thị tiêu đề và slogan trên trang chính
-st.markdown('<h1 class="gradient-text-xanh">HÌNH KHỐI VUI NHỘN</h1>', unsafe_allow_html=True)
+st.markdown('<h1 class="gradient-text-xanh">HÌNH HỌC TRỰC QUAN</h1>', unsafe_allow_html=True)
 st.markdown('<h3 class="gradient-text-do">Hình khối sống động - Kiến thức vững chắc</h3>', unsafe_allow_html=True)
 
 # Hiển thị nội dung dựa trên lựa chọn trong sidebar

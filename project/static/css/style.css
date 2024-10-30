@@ -39,7 +39,7 @@ body {
 .gradient-text-xanh {
     font-size: 60px; /* Kích thước chữ */
     font-weight: bold;
-    background: linear-gradient(90deg, #f67905, #f30d09); /* Màu gradient */
+    background: linear-gradient(90deg, #4f0676, #e41d1a); /* Màu gradient */
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
