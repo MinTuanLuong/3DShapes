@@ -4,7 +4,18 @@ from project.pages import page1, page2, page3  # Import các trang phụ
 # original_title = '<h1 style="font-family: serif; color:white; font-size: 20px;">Streamlit CSS Styling✨ </h1>'
 # st.markdown(original_title, unsafe_allow_html=True)
 
+st.image("https://online.hcmue.edu.vn/static/media/LogoHCMUE2.a462e8c2.png", width=700)
+st.markdown("<h1 style='text-align: center; color: dark blue;'>KHOA TOÁN - TIN HỌC</h1>", unsafe_allow_html=True)
+col1, col2, col3 = st.columns(3)
 
+with col1:
+    st.write(' ')
+
+with col2:
+    st.image("https://hcmue.edu.vn/images/Faculty_Logos/Toan1.png", width=100)
+
+with col3:
+    st.write(' ')
 # Set the background image
 background_image = """
 <style>
