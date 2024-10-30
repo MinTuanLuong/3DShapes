@@ -1,26 +1,5 @@
 import streamlit as st
 
-quiz_data3 = [
-    {"question": "Thể tích của hình cầu được tính bằng công thức nào?", 
-     "choices": ["A) V = (4/3)πr³", "B) V = πr²", "C) V = 2πr³", "D) V = (1/2)πr²"], 
-     "answer": "A) V = (4/3)πr³"},
-    
-    {"question": "Diện tích mặt cầu là:", 
-     "choices": ["A) S = 4πr²", "B) S = πr³", "C) S = 2πr²", "D) S = (4/3)πr²"], 
-     "answer": "A) S = 4πr²"},
-    
-    {"question": "Một hình cầu có bán kính tăng gấp đôi thì diện tích mặt cầu sẽ:", 
-     "choices": ["A) Tăng gấp đôi", "B) Tăng gấp bốn", "C) Tăng gấp tám", "D) Giảm một nửa"], 
-     "answer": "B) Tăng gấp bốn"},
-    
-    {"question": "Một hình cầu có bán kính là 3 cm. Thể tích của hình cầu là:", 
-     "choices": ["A) 36π cm³", "B) 27π cm³", "C) 54π cm³", "D) 36π cm³"], 
-     "answer": "A) 36π cm³"},
-
-    {"question": "Một hình cầu có bán kính là 5 cm. Diện tích mặt cầu là:", 
-     "choices": ["A) 25π cm²", "B) 100π cm²", "C) 50π cm²", "D) 75π cm²"], 
-     "answer": "B) 100π cm²"}
-]
 
 def show():
     st.title("HÌNH CẦU")
@@ -51,6 +30,28 @@ def show():
 
     st.header("Một số bài tập tự luyện")
     
+    quiz_data3 = [
+    {"question": "Thể tích của hình cầu được tính bằng công thức nào?", 
+     "choices": ["A) V = (4/3)πr³", "B) V = πr²", "C) V = 2πr³", "D) V = (1/2)πr²"], 
+     "answer": "A) V = (4/3)πr³"},
+    
+    {"question": "Diện tích mặt cầu là:", 
+     "choices": ["A) S = 4πr²", "B) S = πr³", "C) S = 2πr²", "D) S = (4/3)πr²"], 
+     "answer": "A) S = 4πr²"},
+    
+    {"question": "Một hình cầu có bán kính tăng gấp đôi thì diện tích mặt cầu sẽ:", 
+     "choices": ["A) Tăng gấp đôi", "B) Tăng gấp bốn", "C) Tăng gấp tám", "D) Giảm một nửa"], 
+     "answer": "B) Tăng gấp bốn"},
+    
+    {"question": "Một hình cầu có bán kính là 3 cm. Thể tích của hình cầu là:", 
+     "choices": ["A) 36π cm³", "B) 27π cm³", "C) 54π cm³", "D) 36π cm³"], 
+     "answer": "A) 36π cm³"},
+
+    {"question": "Một hình cầu có bán kính là 5 cm. Diện tích mặt cầu là:", 
+     "choices": ["A) 25π cm²", "B) 100π cm²", "C) 50π cm²", "D) 75π cm²"], 
+     "answer": "B) 100π cm²"}
+    ]
+
     # Hiển thị tất cả các câu hỏi trong quiz_data cùng lúc
     for idx, question in enumerate(quiz_data3):
         st.write(f"**Câu hỏi {idx + 1}: {question['question']}**")

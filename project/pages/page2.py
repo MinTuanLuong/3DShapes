@@ -1,6 +1,28 @@
 import streamlit as st
 
-quiz_data2 = [
+
+def show():
+    st.title("HÌNH NÓN")
+    
+    st.header("Định nghĩa")
+    st.write("Hãy cùng tìm hiểu định nghĩa hình nón qua hoạt động dưới đây.")
+    
+    geogebra_url = "https://www.geogebra.org/m/yrk4srw2"
+    if st.button("Tìm hiểu định nghĩa Hình nón trên Geogebra"):
+        st.write("Bấm vào nút bên dưới để mở trong tab mới.")
+        st.markdown(f'<a href="{geogebra_url}" target="_blank"><button>Geogebra - Hình nón</button></a>', unsafe_allow_html=True)
+    
+    st.header("Công thức")
+    st.write("Hãy cùng tìm hiểu công thức tính diện tích xung quanh và thể tích của hình nón qua hoạt động dưới đây.")
+
+    geogebra_url = "https://www.geogebra.org/m/sbmwy2kt"
+    if st.button("Tìm hiểu các công thức của Hình nón trên Geogebra"):
+        st.write("Bấm vào nút bên dưới để mở trong tab mới.")
+        st.markdown(f'<a href="{geogebra_url}" target="_blank"><button>Geogebra - Hình nón</button></a>', unsafe_allow_html=True)
+
+    st.header("Một số bài tập tự luyện")
+
+    quiz_data2 = [
     {"question": "Thể tích của hình nón được tính bằng công thức nào?", 
      "choices": ["A) V = πr²h", "B) V = (1/3)πr²h", "C) V = πrh", "D) V = (1/2)πr²h"], 
      "answer": "B) (1/3)πr²h"},
@@ -25,28 +47,7 @@ quiz_data2 = [
     {"question": "Một hình nón có thể tích là 30π cm³ và bán kính là 3 cm. Chiều cao của hình nón là:", 
      "choices": ["A) 10 cm", "B) 15 cm", "C) 5 cm", "D) 20 cm"], 
      "answer": "A) 10 cm"}
-]
-
-def show():
-    st.title("HÌNH NÓN")
-    
-    st.header("Định nghĩa")
-    st.write("Hãy cùng tìm hiểu định nghĩa hình nón qua hoạt động dưới đây.")
-    
-    geogebra_url = "https://www.geogebra.org/m/yrk4srw2"
-    if st.button("Tìm hiểu định nghĩa Hình nón trên Geogebra"):
-        st.write("Bấm vào nút bên dưới để mở trong tab mới.")
-        st.markdown(f'<a href="{geogebra_url}" target="_blank"><button>Geogebra - Hình nón</button></a>', unsafe_allow_html=True)
-    
-    st.header("Công thức")
-    st.write("Hãy cùng tìm hiểu công thức tính diện tích xung quanh và thể tích của hình nón qua hoạt động dưới đây.")
-
-    geogebra_url = "https://www.geogebra.org/m/sbmwy2kt"
-    if st.button("Tìm hiểu các công thức của Hình nón trên Geogebra"):
-        st.write("Bấm vào nút bên dưới để mở trong tab mới.")
-        st.markdown(f'<a href="{geogebra_url}" target="_blank"><button>Geogebra - Hình nón</button></a>', unsafe_allow_html=True)
-
-    st.header("Một số bài tập tự luyện")
+    ]
 
     # Hiển thị tất cả các câu hỏi trong quiz_data cùng lúc
     for idx, question in enumerate(quiz_data2):
