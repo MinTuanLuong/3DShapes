@@ -6,7 +6,7 @@ def show():
     st.header("Định nghĩa")
     st.write("Hãy cùng tìm hiểu định nghĩa hình trụ qua hoạt động dưới đây.")
     
-    geogebra_url = "https://www.geogebra.org/m/qkp4se2d"
+    geogebra_url = "https://www.geogebra.org/m/mu3v5tja?fbclid=IwY2xjawGPJMpleHRuA2FlbQIxMAABHZLBaNqQ7eY2AP2kgJy1W2b9CZck6piIh00s9hc14JZYEGbIeoE9Ymrtpg_aem_Vcg6EGZPbEO927c-C3toGw"
     if st.button("Tìm hiểu định nghĩa Hình trụ trên Geogebra"):
         st.write("Bấm vào nút bên dưới để mở trong tab mới.")
         st.markdown(f'<a href="{geogebra_url}" target="_blank"><button>Geogebra - Hình trụ</button></a>', unsafe_allow_html=True)
