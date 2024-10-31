@@ -23,7 +23,7 @@ def show():
     st.header("Công thức")
     st.write("Hãy cùng tìm hiểu công thức tính diện tích xung quanh và thể tích của hình cầu qua hoạt động dưới đây.")
 
-    geogebra_url = "https://www.geogebra.org/m/nrupz4yy"
+    geogebra_url = "https://www.geogebra.org/m/ctbkghje"
     if st.button("Tìm hiểu các công thức của Hình cầu trên Geogebra"):
         st.write("Bấm vào nút bên dưới để mở trong tab mới.")
         st.markdown(f'<a href="{geogebra_url}" target="_blank"><button>Geogebra - Hình cầu</button></a>', unsafe_allow_html=True)
@@ -44,7 +44,7 @@ def show():
      "answer": "B) Tăng gấp bốn"},
     
     {"question": "Một hình cầu có bán kính là 3 cm. Thể tích của hình cầu là:", 
-     "choices": ["A) 36π cm³", "B) 27π cm³", "C) 54π cm³", "D) 36π cm³"], 
+     "choices": ["A) 36π cm³", "B) 27π cm³", "C) 54π cm³", "D) 108π cm³"], 
      "answer": "A) 36π cm³"},
 
     {"question": "Một hình cầu có bán kính là 5 cm. Diện tích mặt cầu là:", 

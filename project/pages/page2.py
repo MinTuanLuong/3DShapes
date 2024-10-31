@@ -7,7 +7,7 @@ def show():
     st.header("Định nghĩa")
     st.write("Hãy cùng tìm hiểu định nghĩa hình nón qua hoạt động dưới đây.")
     
-    geogebra_url = "https://www.geogebra.org/m/yrk4srw2"
+    geogebra_url = "https://www.geogebra.org/m/pa9z37sg"
     if st.button("Tìm hiểu định nghĩa Hình nón trên Geogebra"):
         st.write("Bấm vào nút bên dưới để mở trong tab mới.")
         st.markdown(f'<a href="{geogebra_url}" target="_blank"><button>Geogebra - Hình nón</button></a>', unsafe_allow_html=True)
