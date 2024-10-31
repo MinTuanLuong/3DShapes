@@ -81,7 +81,7 @@ css = load_file("project/static/css/style.css")
 st.markdown(f"<style>{css}</style>", unsafe_allow_html=True)
 
 # Thiết lập sidebar để điều hướng giữa các trang
-st.sidebar.title("Hình học không gian")
+st.sidebar.title("Hình học trực quan")
 page_selection = st.sidebar.radio("", ["Trang Chủ", "Hình trụ", "Hình nón", "Hình cầu"])
 
 # Hiển thị tiêu đề và slogan trên trang chính
