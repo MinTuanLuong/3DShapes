@@ -9,7 +9,7 @@ def show():
     st.header("Định nghĩa")
     st.write("Hãy cùng tìm hiểu định nghĩa hình trụ qua hoạt động dưới đây.")
     
-    geogebra_url = "https://www.geogebra.org/m/mu3v5tja?fbclid=IwY2xjawGPJMpleHRuA2FlbQIxMAABHZLBaNqQ7eY2AP2kgJy1W2b9CZck6piIh00s9hc14JZYEGbIeoE9Ymrtpg_aem_Vcg6EGZPbEO927c-C3toGw"
+    geogebra_url = "https://www.geogebra.org/m/mu3v5tja?fbclid=IwY2xjawGRmG5leHRuA2FlbQIxMAABHQf-aaCxIXCgXEF8rvEh3gOxGflsYyaZFDuzq-GOsD1tBA5QqO3WTvHXSQ_aem_9FIvtZ4m0oDe-DXL24YTvg"
     if st.button("Tìm hiểu định nghĩa Hình trụ trên Geogebra"):
         st.write("Bấm vào nút bên dưới để mở trong tab mới.")
         st.markdown(f'<a href="{geogebra_url}" target="_blank"><button>Geogebra - Hình trụ</button></a>', unsafe_allow_html=True)
@@ -17,12 +17,12 @@ def show():
     st.header("Công thức")
     st.write("Hãy cùng tìm hiểu công thức tính diện tích xung quanh và thể tích của hình trụ qua hoạt động dưới đây.")
 
-    geogebra_url1 = "https://www.geogebra.org/m/tspm8bqg?fbclid=IwY2xjawGOtrlleHRuA2FlbQIxMAABHZLBaNqQ7eY2AP2kgJy1W2b9CZck6piIh00s9hc14JZYEGbIeoE9Ymrtpg_aem_Vcg6EGZPbEO927c-C3toGw"
+    geogebra_url1 = "https://www.geogebra.org/m/tspm8bqg?fbclid=IwY2xjawGRmIBleHRuA2FlbQIxMAABHdKh7DE5x3QOLJ6mCeypJkwB3aVgdRNVTq-wQ9sP5lKnPCQjHsWTiz5dOg_aem_g-JLxTlLtq_IunxgRpSyqw"
     if st.button("Tìm hiểu công thức tính diện tích xung quanh của Hình trụ trên Geogebra"):
         st.write("Bấm vào nút bên dưới để mở trong tab mới.")
         st.markdown(f'<a href="{geogebra_url1}" target="_blank"><button>Geogebra - Hình trụ</button></a>', unsafe_allow_html=True)
 
-    geogebra_url2 = "https://www.geogebra.org/m/jpbz8hcd?fbclid=IwY2xjawGOthNleHRuA2FlbQIxMAABHe8YMKceI45ubTpEmBFfBx-8TpLyNBv9C2iNTpOlns404NF6g2Nmrx6mNA_aem_WF2qMjZZZhEzRLdd3aNHuw"
+    geogebra_url2 = "https://www.geogebra.org/m/jpbz8hcd?fbclid=IwY2xjawGRmKZleHRuA2FlbQIxMAABHfa_7hP7jXP3DGLtqglC5bd6DGvEko86O25G6Tu5bONjJBSY-F3HLq26tw_aem_44Hl5m7m0w1iQidjbwxX0g"
     if st.button("Tìm hiểu công thức tính thể tích của Hình trụ trên Geogebra"):
         st.write("Bấm vào nút bên dưới để mở trong tab mới.")
         st.markdown(f'<a href="{geogebra_url2}" target="_blank"><button>Geogebra - Hình trụ</button></a>', unsafe_allow_html=True)

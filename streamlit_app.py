@@ -90,12 +90,13 @@ st.markdown('<h3 class="gradient-text-do">Hình khối sống động - Kiến t
 
 # Hiển thị nội dung dựa trên lựa chọn trong sidebar
 if page_selection == "Trang Chủ":
-    st.write(
-    "Hãy cùng nhau khám phá thế giới hình học 3D đầy thú vị! Từ những hình khối đơn giản như khối lập phương, hình cầu, đến những cấu trúc phức tạp hơn, mỗi hình đều ẩn chứa những quy luật và tính chất độc đáo.\n"
-    "Trang web này sẽ giúp bạn không chỉ hiểu rõ về các hình khối mà còn thấy chúng sống động qua các hình ảnh minh họa trực quan và các bài học tương tác.\n"
-    "Bắt đầu ngay để khám phá vẻ đẹp toán học ẩn giấu trong từng hình khối nhé!\n\n"
-    "👉 :rainbow[**Bấm vào thanh sidebar để chọn hình bạn muốn khám phá!**]"
-    )    
+    # st.write(
+    # "Hãy cùng nhau khám phá thế giới hình học 3D đầy thú vị! Từ những hình khối đơn giản như khối lập phương, hình cầu, đến những cấu trúc phức tạp hơn, mỗi hình đều ẩn chứa những quy luật và tính chất độc đáo.\n"
+    # "Trang web này sẽ giúp bạn không chỉ hiểu rõ về các hình khối mà còn thấy chúng sống động qua các hình ảnh minh họa trực quan và các bài học tương tác.\n"
+    # "Bắt đầu ngay để khám phá vẻ đẹp toán học ẩn giấu trong từng hình khối nhé!\n\n"
+    # "👉 :rainbow[**Bấm vào thanh sidebar để chọn hình bạn muốn khám phá!**]"
+    # )    
+    st.write("👉 :rainbow[**Bấm vào thanh sidebar để chọn hình bạn muốn khám phá!**]")
 elif page_selection == "Hình trụ":
     page1.show()  # Hiển thị nội dung từ file `page1.py`
 elif page_selection == "Hình nón":
