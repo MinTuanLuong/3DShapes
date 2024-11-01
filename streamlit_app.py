@@ -96,7 +96,7 @@ if page_selection == "Trang Chủ":
     # "Bắt đầu ngay để khám phá vẻ đẹp toán học ẩn giấu trong từng hình khối nhé!\n\n"
     # "👉 :rainbow[**Bấm vào thanh sidebar để chọn hình bạn muốn khám phá!**]"
     # )    
-    st.write("👉 :rainbow[**Bấm vào thanh sidebar để chọn hình bạn muốn khám phá!**]")
+    st.write("👉 :rainbow[**Bấm vào thanh công cụ bên trái để chọn hình bạn muốn khám phá!**]")
 elif page_selection == "Hình trụ":
     page1.show()  # Hiển thị nội dung từ file `page1.py`
 elif page_selection == "Hình nón":
