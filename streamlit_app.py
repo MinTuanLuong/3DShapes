@@ -90,12 +90,15 @@ st.markdown('<h3 class="gradient-text-do">Hình khối sống động - Kiến t
 
 # Hiển thị nội dung dựa trên lựa chọn trong sidebar
 if page_selection == "Trang Chủ":
-    # st.write(
-    # "Hãy cùng nhau khám phá thế giới hình học 3D đầy thú vị! Từ những hình khối đơn giản như khối lập phương, hình cầu, đến những cấu trúc phức tạp hơn, mỗi hình đều ẩn chứa những quy luật và tính chất độc đáo.\n"
-    # "Trang web này sẽ giúp bạn không chỉ hiểu rõ về các hình khối mà còn thấy chúng sống động qua các hình ảnh minh họa trực quan và các bài học tương tác.\n"
-    # "Bắt đầu ngay để khám phá vẻ đẹp toán học ẩn giấu trong từng hình khối nhé!\n\n"
-    # "👉 :rainbow[**Bấm vào thanh sidebar để chọn hình bạn muốn khám phá!**]"
-    # )    
+    st.write("""
+# Chào mừng đến với Trang web HÌNH HỌC TRỰC QUAN!
+
+Tại đây, chúng tôi giúp bạn khám phá và nắm vững kiến thức về các khối hình cơ bản: **hình trụ**, **hình nón**, và **hình cầu**. Bạn sẽ được hướng dẫn từng bước qua các định nghĩa quan trọng, cách hình thành các khối từ những hình phẳng cơ bản, và nắm chắc các công thức tính diện tích, thể tích cho từng loại hình.
+
+Với nội dung trình bày sinh động và trực quan, trang web là công cụ hữu ích giúp bạn hiểu sâu hơn và tự tin áp dụng các kiến thức vào bài tập.
+
+### Hãy bắt đầu hành trình khám phá hình học không gian ngay hôm nay!
+""")
     st.write("👉 :rainbow[**Bấm vào thanh công cụ bên trái để chọn hình bạn muốn khám phá!**]")
 elif page_selection == "Hình trụ":
     page1.show()  # Hiển thị nội dung từ file `page1.py`
