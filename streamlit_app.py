@@ -91,15 +91,16 @@ st.markdown('<h3 class="gradient-text-do">Hình khối sống động - Kiến t
 # Hiển thị nội dung dựa trên lựa chọn trong sidebar
 if page_selection == "Trang Chủ":
     st.write("""
-# Chào mừng đến với Trang web HÌNH HỌC TRỰC QUAN!
+Chào mừng đến với Trang web HÌNH HỌC TRỰC QUAN!
 
 Tại đây, chúng tôi giúp bạn khám phá và nắm vững kiến thức về các khối hình cơ bản: **hình trụ**, **hình nón**, và **hình cầu**. Bạn sẽ được hướng dẫn từng bước qua các định nghĩa quan trọng, cách hình thành các khối từ những hình phẳng cơ bản, và nắm chắc các công thức tính diện tích, thể tích cho từng loại hình.
 
 Với nội dung trình bày sinh động và trực quan, trang web là công cụ hữu ích giúp bạn hiểu sâu hơn và tự tin áp dụng các kiến thức vào bài tập.
 
-### Hãy bắt đầu hành trình khám phá hình học không gian ngay hôm nay!
+Hãy bắt đầu hành trình khám phá hình học không gian ngay hôm nay!
+
+👉 :rainbow[**Bấm vào thanh công cụ bên trái để chọn hình bạn muốn khám phá!**]
 """)
-    st.write("👉 :rainbow[**Bấm vào thanh công cụ bên trái để chọn hình bạn muốn khám phá!**]")
 elif page_selection == "Hình trụ":
     page1.show()  # Hiển thị nội dung từ file `page1.py`
 elif page_selection == "Hình nón":
